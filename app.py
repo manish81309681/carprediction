@@ -28,6 +28,9 @@ def predict():
         elif(Fuel_Type_Petrol=='Diesel'):
             Fuel_Type_Petrol=0
             Fuel_Type_Diesel=1
+        else:
+            Fuel_Type_Petrol=0
+            Fuel_Type_Diesel=0
         Year=2021-Year
         Seller_Type_Individual=request.form['Seller_Type_Individual']
         if(Seller_Type_Individual=='Individual'):
